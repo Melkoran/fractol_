@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fractol.h                                          :+:      :+:    :+:   */
+/*   Fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abouchfa <abouchfa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kczech <kczech@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/17 05:18:43 by abouchfa          #+#    #+#             */
-/*   Updated: 2022/07/05 06:09:25 by abouchfa         ###   ########.fr       */
+/*   Updated: 2023/02/25 11:41:08 by kczech           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <stdint.h>
 # include <stdlib.h>
 # include <math.h>
-# include <mlx.h>
+# include "mlx/mlx.h"
 
 typedef struct s_data {
 	void	*win;
